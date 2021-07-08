@@ -1,6 +1,6 @@
 {
   "name": "create-zerva",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Creates zerva project",
   "license": "MIT",
   "main": "index.js",
