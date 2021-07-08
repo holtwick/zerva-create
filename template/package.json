@@ -2,9 +2,10 @@
   "name": "zerva-starter",
   "version": "0.0.0",
   "scripts": {
-    "start": "zerva index.ts"
+    "start": "zerva src/index.ts"
   },
   "devDependencies": {
+    "zeed": ">=0.1.0",
     "zerva": ">=0.1.0"
   }
 }
