@@ -1,0 +1,10 @@
+{
+  "name": "zerva-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "zerva index.ts"
+  },
+  "devDependencies": {
+    "zerva": ">=0.1.0"
+  }
+}

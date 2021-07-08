@@ -1,0 +1,23 @@
+{
+  "name": "create-zerva",
+  "version": "0.1.0",
+  "description": "Creates zerva project",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "create-zerva": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "author": {
+    "name": "Dirk Holtwick",
+    "email": "dirk.holtwick@gmail.com",
+    "url": "https://holtwick.de"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "minimist": "^1.2.5"
+  }
+}
