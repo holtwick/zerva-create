@@ -1,6 +1,12 @@
 // Simple demo for node and CommonJS loading
 
-import { Logger, LoggerNodeHandler, LoggerFileHandler, LogLevel } from "zeed"
+import {
+  Logger,
+  LoggerNodeHandler,
+  LoggerFileHandler,
+  LogLevel,
+  valueToInteger,
+} from "zeed"
 
 Logger.setHandlers([
   LoggerFileHandler("zerva.log", {
@@ -16,9 +22,9 @@ Logger.setHandlers([
   }),
 ])
 
-import { serve, http, register, on } from "zerva"
+import { serve, useHttp, register, on } from "zerva"
 
-function counter() {
+function useCounter() {
   register("counter", ["http"])
   let counter = 1
   on("httpInit", ({ get }) => {
@@ -32,9 +38,10 @@ function counter() {
   }
 }
 
-serve(() => {
-  http({
-    port: 8080,
-  })
-  counter()
+useHttp({
+  port:  valueToInteger(process.env.PORT, 8080),
 })
+
+useCounter()
+
+serve()
