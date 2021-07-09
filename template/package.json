@@ -8,5 +8,8 @@
   "devDependencies": {
     "zeed": ">=0.1.0",
     "zerva": ">=0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": ">=16.0.0"
   }
 }
