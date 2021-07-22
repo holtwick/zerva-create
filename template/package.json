@@ -5,11 +5,11 @@
   "scripts": {
     "start": "zerva src/index.ts"
   },
-  "dependencies": {
-    "zeed": ">=0.1.0",
-    "zerva": ">=0.1.0"
-  },
   "devDependencies": {
-    "@types/node": ">=16.0.0"
+    "@types/node": ">=16.4.0"
+  },
+  "dependencies": {
+    "zeed": ">=0.5.9",
+    "zerva": ">=0.4.8"
   }
 }
