@@ -1,5 +1,3 @@
-// Simple demo for node and CommonJS loading
-
 import {
   Logger,
   LoggerNodeHandler,
@@ -39,7 +37,7 @@ function useCounter() {
 }
 
 useHttp({
-  port:  valueToInteger(process.env.PORT, 8080),
+  port: valueToInteger(process.env.PORT, 8080),
 })
 
 useCounter()
