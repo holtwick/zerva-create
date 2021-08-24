@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "zerva src/index.ts"
+    "start": "zerva",
+    "build": "zerva build",
+    "serve": "node dist/main.cjs"
   },
   "devDependencies": {
     "@types/node": ">=16.4.0"
