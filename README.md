@@ -1,3 +1,5 @@
+> DEPRECATED: Prefer using [zerva-project-template](https://github.com/holtwick/zerva-project-template/).
+
 # create-zerva
 
 Create a project using [Zerva](https://github.com/holtwick/zerva).
